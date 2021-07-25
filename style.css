@@ -1,0 +1,57 @@
+.body {
+  font-family: sans-serif;
+  color: hotpink;
+}
+
+#side-bar {
+  float:left;
+  width: 30%;
+  height: 100%;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: LightGray;
+}
+
+.project-title {
+  color: black;
+}
+
+#main-bar {
+  float: right;
+  width: 70%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  text-align: center;
+}
+
+.my-form {
+  padding: 10px;
+}
+
+.form-group {
+  padding: 15px;
+}
+
+.my-form label {
+  display:block;
+}
+
+.my-form input {
+  padding: 8px;
+  width: 100%;
+}
+
+.location-summary {
+  display: flex;
+  color: black;
+  margin-top: 50px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.location-tab {
+  border: 1px gray solid;
+  margin-right: 10px;
+}
